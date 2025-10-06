@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bebas+Neue&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.13),       transparent),
+    radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.13), transparent)
+}
+canvas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    }
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 100px;
+}
+
+h2{
+  text-align: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 50px;
+}
+
+h6{
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+}
+
+p{
+  text-align: center;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 40px; 
+}
+
+.logo{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 30px; 
+} 
+ 
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 50%);
+}
+.navbar li{
+    float: left;
+}
+
+img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.wrapper1{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:5rem;
+}
+
+.exo_ex{
+    flex: 1;
+}
+
+.wrapper2{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:5rem;
+}
+
+.exo2_ex{
+    flex: 1;
+    font-size: 25px;
+}
+
+.nav_items{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper3{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:5rem;
+}
+
+.exo3_ex{
+    flex: 1;
+    font-size: 25px;
+}
+
+.wrapper4{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:5rem;
+}
+
+.exo4_ex{
+    flex: 1;
+    font-size: 30px;
+}
+
+.wrapper1{
+  background-color: transparent;
+}
+.wrapper2{
+  background-color: transparent;
+}
+.wrapper3{
+  background-color: transparent;
+}
+.wrapper4{
+  background-color: transparent;
+}
+
+.exo{
+    position: absolute;
+    top: 4vmin;
+    left: 2vmin;
+    color: rgba(255,255,255,0.2);
+    text-decoration: none;
+}
+.home{
+  position: absolute;
+  top: 4vmin;
+  right: 10vmin;
+  color: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+.Data{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  top: 4vmin;
+  right: 15vmin;
+  color: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+.div{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:5rem;
+    flex: 1;
+}
+.nasa{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  top: 4vmin;
+  left: 9vmin;
+  color: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.nasa_img{
+  width: 200px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  left: 20vmin;
+  left: 40%;
+  position: absolute;
+}
+.sharma{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  top: 4vmin;
+  left: 14vmin;
+  color: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+.div{
+  color: white;
+}
+.wrapper10{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:5rem;
+}
+
+.exo_ex10{
+    flex: 1;
+    font-size: 30px;
+}
